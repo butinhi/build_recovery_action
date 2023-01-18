@@ -14,7 +14,7 @@ on:
       DEVICE_TREE:
         description: 'device tree'
         required: true
-        default: 'https://github.com/xiaoleGun/android_device_xiaomi_wayne-twrp'
+        default: 'https://github.com/butinhi/twrp_device_xiaomi_chiron'
       DEVICE_TREE_BRANCH:
         description: 'branch'
         required: true
@@ -22,15 +22,15 @@ on:
       DEVICE_PATH:
         description: 'device path'
         required: true
-        default: 'device/xiaomi/wayne'
+        default: 'device/xiaomi/chiron'
       DEVICE_NAME:
         description: 'device codename'
         required: true
-        default: 'wayne'
+        default: 'chiron'
       MAKEFILE_NAME:
         description: 'makefile name'
         required: true
-        default: 'twrp_wayne'
+        default: 'twrp_chiron'
       MAKEWHAT:
         description: 'make what'
         required: true
